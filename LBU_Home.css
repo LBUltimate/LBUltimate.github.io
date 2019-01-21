@@ -1,9 +1,10 @@
-body {
-
-}
-
 h1 {
-
+  font-family: 'Oleo Script', cursive;
+  font-size: 150%;
+  font-weight: bold;
+  Position: absolute;
+  top: .5vh;
+  left: .5vh;
 }
 
 .homepage {
@@ -33,6 +34,7 @@ h1 {
   font-size: 100%;
   font-weight: bold;
   border: none;
+  top: 0vh;
 }
 
 .button:hover {
