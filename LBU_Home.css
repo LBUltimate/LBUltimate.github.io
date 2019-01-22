@@ -70,45 +70,65 @@ li a:hover {
 /* Social Media Icons */
 .fa {
   padding: 1.5vh;
-  font-size: 100%;
-  width: 5vh;
-  height: 5vh;
+  width: 7vh;
+  height: auto;
   margin: 0vh 1vh;
-  text-align: center;
-  border-radius: 100%;
   position: fixed;
+  top:32vh;
 }
 
 .fa:hover {
     opacity: 0.6;
 }
 
-.fa-facebook {
-  background: black;
-  color: white;
-  top: 32vh;
+.u {
+  padding: 1.5vh;
+  width: 7vh;
+  height: auto;
+  margin: 0vh 1vh;
+  position: fixed;
+  top:37vh;
 }
 
-.fa-youtube {
-  background: black;
-  color: white;
-  top: 38vh;
+.u:hover {
+  opacity: 0.6;
 }
 
-.fa-reddit {
-  background: black;
-  color: white;
-  top: 44vh;
+.red {
+  padding: 1.5vh;
+  width: 7vh;
+  height: auto;
+  margin: 0vh 1vh;
+  position: fixed;
+  top:42vh;
 }
 
-.fa-instagram {
-  background: black;
-  color: white;
-  top: 50vh;
+.red:hover {
+  opacity: 0.6;
 }
 
-.fa-spotify {
-  background: black;
-  color: white;
-  top: 56vh;
+.insta {
+  padding: 1.5vh;
+  width: 7vh;
+  height: auto;
+  margin: 0vh 1vh;
+  position: fixed;
+  top:47vh;
+}
+
+.insta:hover {
+  opacity: 0.6;
+}
+
+.spot {
+  padding: 1.5vh;
+  width: 7vh;
+  height: auto;
+  margin: 0vh 1vh;
+  position: fixed;
+  top:52vh;
+}
+
+.spot:hover {
+  opacity: 0.6;
 }
