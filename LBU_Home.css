@@ -50,6 +50,13 @@ ul {
   padding: 1vh;
   overflow: hidden;
   background-color: rgba(255, 255, 255, 0);
+
+}
+
+ul.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 li {
