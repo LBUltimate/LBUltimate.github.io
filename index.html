@@ -19,12 +19,27 @@
     <div class="homepage">
 
       <!-- Top bar with navigation buttons -->
-      <ul class="sticky">
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="photos.html">Photos</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li style="float:right"><a href="#about">About</a></li>
-      </ul>
+      <div id="navbar">
+        <a class="active" href="index.html#top">Home</a>
+        <a href="photos.html">Photos</a>
+        <a href="#contact">Contact</a>
+        <a href="#about" style="float: right;">About</a>
+      </div>
+
+      <script>
+        window.onscroll = function() {myFunction()};
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+      </script>
 
       <img src="BearLogo.png" alt="LBU Logo" style="height:8vh; position:fixed; right:1vh; bottom:1vh;">
 
@@ -36,11 +51,11 @@
 
     </div>
 
-    <div class="content0" id="contact">
+    <div class="content0" id="about">
 
     </div>
 
-    <div class="content1" id="about">
+    <div class="content1" id="contact">
 
     </div>
 
