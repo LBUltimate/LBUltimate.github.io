@@ -12,15 +12,6 @@ h2 {
   width:100%;
 }
 
-.center {
-  margin-left: auto;
-  margin-right: auto;
-  height: 4vh;
-  position:absolute;
-  top:92%;
-  left: 48.75%;
-}
-
 /* Homepage Background */
 .homepage {
   background-image: url("2018HenricoHuddle(16-9).png");

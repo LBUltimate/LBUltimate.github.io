@@ -24,6 +24,21 @@
       <a href="index.html#about" style="float: right;">About</a>
     </div>
 
+    <script>
+      window.onscroll = function() {myFunction()};
+
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+    </script>
+
     <h2>Under Construction</h2>
 
     <img src="BearLogo.png" alt="LBU Logo" style="height:8vh; position:fixed; right:1vh; bottom:1vh;">
