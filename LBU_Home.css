@@ -34,6 +34,18 @@ h2 {
   font-size: 36px;
 }
 
+#readMore {
+  position: absolute;
+  width: 100%;
+  top: 94%;
+  text-align:center;
+}
+
+.chevron {
+  margin: auto;
+  width: 4%;
+}
+
 /* Navigation Bar */
 #navbar {
   overflow: hidden;
@@ -65,7 +77,11 @@ h2 {
 }
 
 /* Photo Album */
-
+#carouselExampleIndicators {
+  top: 7vh;
+  width: 75%;
+  margin:auto;
+}
 
 /* Social Media Icons */
 .fa {
