@@ -12,15 +12,6 @@ h2 {
   width:100%;
 }
 
-.center {
-  margin-left: auto;
-  margin-right: auto;
-  height: 4vh;
-  position:absolute;
-  top:92%;
-  left: 48.75%;
-}
-
 /* Homepage Background */
 .homepage {
   background-image: url("2018HenricoHuddle(16-9).png");
@@ -44,41 +35,37 @@ h2 {
 }
 
 /* Navigation Bar */
-ul {
-  list-style-type: none;
-  text-decoration: none;
-  padding: 1vh;
+#navbar {
   overflow: hidden;
   background-color: rgba(255, 255, 255, 0);
-
 }
 
-ul.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-}
-
-li {
+#navbar a {
   float: left;
-}
-
-li a {
   display: block;
   color: black;
   text-align: center;
-  text-decoration: none;
   padding: 2vh 5vh;
+  text-decoration: none;
   font-size: 115%;
   font-weight: bold;
 }
 
-li a:hover {
+#navbar a:hover {
   background-color: rgba(255, 255, 255, 0.1);
   color: black;
-  outline: none;
   text-decoration: none;
+  outline: none;
 }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Photo Album */
+
 
 /* Social Media Icons */
 .fa {

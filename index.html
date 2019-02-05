@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <!-- Custom Style Sheet -->
     <link rel="stylesheet" href="LBU_Home.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="BearLogo.png">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
@@ -21,6 +23,7 @@
     <div class="homepage">
 
       <!-- Top bar with navigation buttons -->
+<<<<<<< HEAD
       <ul>
         <li><a class="active" href="index.html">Home</a></li>
         <li><a href="photos.html">Photos</a></li>
@@ -28,6 +31,29 @@
         <li style="float:right"><a href="#about">About</a></li>
         <li style="float:right"><a href="#faq">FAQ</a></li>
       </ul>
+=======
+      <div id="navbar">
+        <a class="active" href="index.html#top">Home</a>
+        <a href="photos.html">Photos</a>
+        <a href="#contact">Contact</a>
+        <a href="#about" style="float: right;">About</a>
+      </div>
+
+      <script>
+        window.onscroll = function() {myFunction()};
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+      </script>
+>>>>>>> master
 
       <h1 style="text-align:center; color:purple;"> <b>Lake<span style="color:yellow;"> Braddock </span>Ultimate</b></h1>
 
@@ -41,11 +67,11 @@
 
     </div>
 
-    <div class="content0" id="contact">
+    <div class="content0" id="about">
 
     </div>
 
-    <div class="content1" id="about">
+    <div class="content1" id="contact">
 
     </div>
 
